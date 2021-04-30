@@ -28,7 +28,7 @@ export default function Weather() {
     }
     else {
         const { name, main: { temp }, sys: { country } } = weather.data;
-        const { main, description, icon } = weather.data.weather[0];
+        const { description, icon } = weather.data.weather[0];
 
         return (
             <section className={styles.container}>
