@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+}
+
+.formContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.searchBar {
+    margin-right: 8px;
+    border-radius: 20px;
+    border: none;
+    border-width: 0;
+    height: 35px;
+    width: 70%;
+    outline: none;
+    padding-left: 15px;
+    font-size: 15px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.searchBtn {
+    padding: 13px 20px;
+    border-radius: 25px;
+    border: none 0;
+    background-color: #f7ea00;
+    cursor: pointer;
+}
+.searchBtn:active {
+    padding: 7px 13px;
+}
+
+@media screen and (min-width: 50em) {
+    .searchBar {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 50em) {
+    .searchBar {
+        width: 40%;
+    }
+}
